@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: demoSecurity
+application:
+    firebase:
+        configFile: classpath:/firebase/teste-fm-firebase-adminsdk-jkahy-XXX.json
+        databaseUrl:
+        tokenUrl: https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=
+        verifyEmailUrl: https://www.googleapis.com/identitytoolkit/v3/relyingparty/getOobConfirmationCode?key=
+        appKey:
